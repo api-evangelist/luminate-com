@@ -1,25 +1,77 @@
 aid: luminate-com
+
 name: Luminate *
+
+image: https://sep.turbifycdn.com/yf/nrp/image/turbify/social/turbify-preview-1200x627.jpeg
+
 description: 'Luminate * is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
   backed by gv) and added to the network as a stub for full-pipeline profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/luminate-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- gv
+
 common:
+- type: LLMsTxt
+  url: llms/luminate-com-llms.txt
+- type: Hosts
+  url: hosts/luminate-com-hosts.yml
+- type: TermsOfService
+  url: https://www.turbify.com/tos
+- type: Support
+  url: https://help.turbify.com/s/
+- type: PrivacyPolicy
+  url: https://www.turbify.com/privacy-policy
+- type: DeveloperPortal
+  url: https://www.turbify.com/developer
+- type: GettingStarted
+  url: https://help.turbify.com/article/getting-started-with-paypal-checkout
+- type: Documentation
+  url: https://help.turbify.com/
+- type: DomainSecurity
+  url: security/luminate-com-domain-security.yml
 - type: Website
   url: http://www.luminate.com
+
+apis: []
+
+x-backed-by:
+- gv
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-22'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: http://www.luminate.com
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

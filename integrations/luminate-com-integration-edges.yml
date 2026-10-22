@@ -1,0 +1,20 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/luminate-com/integrations
+- https://zapier.com/apps/luminate/integrations
+- https://n8n.io/integrations/luminate-com/
+- https://n8n.io/integrations/luminate/
+- https://composio.dev/toolkits/luminate-com
+- https://monid.ai/tools/luminate-com
+checked:
+- https://composio.dev/toolkits/luminate-com
+- https://monid.ai/tools/luminate-com
+- https://n8n.io/integrations/luminate-com/
+- https://n8n.io/integrations/luminate/
+- https://zapier.com/apps/luminate-com/integrations
+- https://zapier.com/apps/luminate/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
